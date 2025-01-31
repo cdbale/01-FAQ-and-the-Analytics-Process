@@ -94,7 +94,7 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 ## FAQ | How will this help me in the future?
 
 <center>
-![](../../Figures/analytics_levels.png){width=375px}
+![](Figures/analytics_levels.png){width=375px}
 </center>
 
 ## FAQ | How am I going to be graded?
@@ -147,13 +147,13 @@ Justin Collings, Academic Vice President (Remember the Alamo Bowl):
 ---
 
 <center>
-![](../../Figures/monsters_r.png){width=500px}
+![](Figures/monsters_r.png){width=500px}
 </center>
 
 ## Marketing Analytics Process
 
 <center>
-![](../../Figures/process.png){width=900px}
+![](Figures/process.png){width=900px}
 </center>
 
 ## Identify | Specify the Managerial Decision and Evaluate Data
