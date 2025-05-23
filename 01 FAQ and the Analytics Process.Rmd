@@ -115,7 +115,7 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 
 ## FAQ | What role will generative AI play in this class?
 
-It's important to know how to use AI in an ethical and helpful way. This class has been designed with the intent that students can and should use generative AI (e.g. ChatGPT) to help them debug their code and better understand syntax. However, one of the most valuable skills you'll gain through this course is the ability to think critically about how to solve business problems using data. I hope you will use AI as a tool to help you get your own original ideas across, not as a crutch to avoid stretching your brain.
+It's important to know how to use AI in an ethical and helpful way. This class has been designed with the intent that students can and should use generative AI (e.g. ChatGPT) to help them debug their code. However, one of the most valuable skills you'll gain through this course is the ability to think critically about how to solve business problems using data. I hope you will use AI as a tool to help you get your own original ideas across, not as a crutch to avoid stretching your brain.
 
 ## FAQ | How is marketing analytics used in practice?
 
@@ -159,11 +159,13 @@ Justin Collings, Academic Vice President (Remember the Alamo Bowl):
 ![](Figures/process.png){width=900px}
 </center>
 
-## Identify | Specify the Managerial Decision and Evaluate Data
+## Identify | Specify the Managerial Problem and Evaluate Data
 
-To inform managerial decision-making there needs to be a decision to begin with. Having a well-defined managerial decision is what separates data analytics from **data mining**.
+One of the most important skills you will gain over the course of the semester is the ability to recognize business pain points and translate them into specific and actionable analyses.
 
-What data is needed should be evaluated with the managerial decision in mind and not the *other way around*.
+You will also learn how to synthesize data from multiple sources, and ask questions that can reasonably be answered based on the available data.
+
+Good marketing analytics begins with asking the right questions and obtaining the right data.
 
 ## Import | Acquire the Needed Data
 
@@ -221,7 +223,7 @@ The analyst needs to **interpret results in a way that clearly informs the manag
 ## Exercise 1
 
 1. Read the syllabus. 
-2. Sign up for [Posit Cloud](http://posit.cloud) and join the course [here](https://posit.cloud/spaces/571582/join?access_code=jp8-DQDeNLj6xSI4CHsRtAzsncKvfhiOEgfOogTH).
+2. Download and install the latest version of [R and RStudio](https://posit.co/download/rstudio-desktop/) (in that order). (If you have a Mac, note the difference between Intel and Apple silicon!)
 3. Email me with questions or concerns you haven't had answered and/or what topics you're most excited to cover.
 4. Read the case and write how you might meet the expectations (no more than one page).
 5. Submit your response as a Word document on Canvas by the beginning of class Tuesday and be prepared to share with the class.
