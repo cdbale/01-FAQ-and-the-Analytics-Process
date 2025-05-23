@@ -66,7 +66,7 @@ R is a free, open-source programming language for statistical computing, analysi
 
 ## FAQ | My internship/job expects me to know Python. How do I learn it?
 
-Python is also a general-purpose data analysis tool, it just isn't as *accessible* as R is. However, many jobs require you know Python.
+Python is also a general-purpose data analysis tool, it just isn't as *accessible* as R is. However, many jobs require you to know Python.
 
 - Programming techniques and experience learned in R will make learning additional languages *much* easier.
 - The BYU Statistics department has excellent courses to teach you Python.
@@ -77,9 +77,9 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 1. Seek learning by study and faith (D&C 109:7).
 2. Prepare for class by previewing material and coming with questions.
 3. Actively code, take notes, and ask questions during class.
-4. Practice coding by completing exercises, referencing supplementary material as needed.
+4. Practice coding by completing exercises and referencing supplementary material as needed.
 5. Review exercise solutions and note where and why your work differs.
-6. Use the quizzes to gauge how well the material is understood.
+6. Use the quizzes to gauge how well you understand the material.
 7. Work with classmates and utilize office hours.
 8. Download and organize all course materials, notes, and code.
 
@@ -109,9 +109,9 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 
 - Email me: [cameron.bale@byu.edu](mailto:cameron.bale@byu.edu)
 - Office Hours: [By appointment](https://calendly.com/camdbresearch/30min)
-- Contact the TA: [esbudge@student.byu.edu](mailto:esbudge@student.byu.edu), Phone: 636-226-5419 (for emergencies only, or if email unanswered after 72 hours)
+- Contact the TA: [esbudge@student.byu.edu](mailto:esbudge@student.byu.edu), Phone: 636-226-5419 (for emergencies only, or if email unanswered after 72 hours.)
 - Go to TA office hours: 4pm - 6pm Mondays and Wednesdays. [Zoom link](https://byu.zoom.us/j/5731989983).
-- Reference slides, class notes, and supplementary material *first*
+- Reference slides, class notes, and supplementary material *first*.
 - Learn to use GitHub Copilot (eventually)
 
 ## FAQ | How is marketing analytics used in practice?
@@ -138,7 +138,7 @@ This class provides three detailed demonstrations of how marketing analytics is 
 - Learn something hard now while you have help.
 - Please be patient with yourself, me, and others.
 
-## Be *generous* to Each Other
+## Be *Generous* to Each Other
 
 Justin Collings, Academic Vice President (Remember the Alamo Bowl):
 
@@ -172,17 +172,17 @@ While primary data is gathered specifically to serve the research objectives at 
 - What was collected?
 - How was it collected?
 
-Acquiring secondary data may require interfacing with databases, using APIs, scraping the Web, etc.
+Acquiring secondary data may require interfacing with databases, using APIs,  web scraping, etc.
 
 ## Tidy and Transform | Wrangle the Data
 
-Secondary data can be **messy**. Data wrangling includes whatever tidying, cleaning, mutating, munging, selecting, transforming, renaming, fusing, or filtering is needed to get the data into the needed form to summarize and model.
+Secondary data can be **messy**. Data wrangling includes whatever tidying, cleaning, mutating, selecting, transforming, renaming, fusing, or filtering is needed to get the data into the needed form to summarize and model.
 
 This can be *tedious*.
 
 ## Visualize | Summarize the Data
 
-Summarizing data is initially about discovery. It includes computing **statistics** (i.e., numerical summaries) and **data visualization** (i.e., graphical summaries).
+Summarizing data is initially about discovery. It includes computing **statistics** (i.e., numerical summaries) and creating **data visualizations** (i.e., graphical summaries).
 
 - Summarizing data is closely tied with data wrangling.
 - Summarizing data is often not an end in itself.
