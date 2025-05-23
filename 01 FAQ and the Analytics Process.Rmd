@@ -112,7 +112,10 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 - Contact the TA: [esbudge@student.byu.edu](mailto:esbudge@student.byu.edu), Phone: 636-226-5419 (for emergencies only, or if email unanswered after 72 hours.)
 - Go to TA office hours: 4pm - 6pm Mondays and Wednesdays. [Zoom link](https://byu.zoom.us/j/5731989983).
 - Reference slides, class notes, and supplementary material *first*.
-- Learn to use GitHub Copilot (eventually)
+
+## FAQ | What role will generative AI play in this class?
+
+It's important to know how to use AI in an ethical and helpful way. This class has been designed with the intent that students can and should use generative AI (e.g. ChatGPT) to help them debug their code and better understand syntax. However, one of the most valuable skills you'll gain through this course is the ability to think critically about how to solve business problems using data. I hope you will use AI as a tool to help you get your own original ideas across, not as a crutch to avoid stretching your brain.
 
 ## FAQ | How is marketing analytics used in practice?
 
