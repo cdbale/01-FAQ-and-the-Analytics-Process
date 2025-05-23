@@ -177,13 +177,13 @@ While primary data is gathered specifically to serve the research objectives at 
 - What was collected?
 - How was it collected?
 
-Acquiring secondary data may require interfacing with databases, using APIs,  web scraping, etc.
+Acquiring secondary data may require interacting with databases, using APIs,  web scraping, etc.
 
 ## Tidy and Transform | Wrangle the Data
 
 Secondary data can be **messy**. Data wrangling includes whatever tidying, cleaning, mutating, selecting, transforming, renaming, fusing, or filtering is needed to get the data into the needed form to summarize and model.
 
-This can be *tedious*.
+This can be *tedious*, but it is a vital analytics skill.
 
 ## Visualize | Summarize the Data
 
