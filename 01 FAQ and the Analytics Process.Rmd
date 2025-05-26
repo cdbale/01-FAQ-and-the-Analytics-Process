@@ -66,7 +66,7 @@ R is a free, open-source programming language for statistical computing, analysi
 
 ## FAQ | My internship/job expects me to know Python. How do I learn it?
 
-Python is also a general-purpose data analysis tool, it just isn't as *accessible* as R is. However, many jobs require you know Python.
+Python is also a general-purpose data analysis tool, it just isn't as *accessible* as R is. However, many jobs require you to know Python.
 
 - Programming techniques and experience learned in R will make learning additional languages *much* easier.
 - The BYU Statistics department has excellent courses to teach you Python.
@@ -77,9 +77,9 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 1. Seek learning by study and faith (D&C 109:7).
 2. Prepare for class by previewing material and coming with questions.
 3. Actively code, take notes, and ask questions during class.
-4. Practice coding by completing exercises, referencing supplementary material as needed.
+4. Practice coding by completing exercises and referencing supplementary material as needed.
 5. Review exercise solutions and note where and why your work differs.
-6. Use the quizzes to gauge how well the material is understood.
+6. Use the quizzes to gauge how well you understand the material.
 7. Work with classmates and utilize office hours.
 8. Download and organize all course materials, notes, and code.
 
@@ -109,10 +109,13 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 
 - Email me: [cameron.bale@byu.edu](mailto:cameron.bale@byu.edu)
 - Office Hours: [By appointment](https://calendly.com/camdbresearch/30min)
-- Contact the TA: [esbudge@student.byu.edu](mailto:esbudge@student.byu.edu), Phone: 636-226-5419 (for emergencies only, or if email unanswered after 72 hours)
+- Contact the TA: [esbudge@student.byu.edu](mailto:esbudge@student.byu.edu), Phone: 636-226-5419 (for emergencies only, or if email unanswered after 72 hours.)
 - Go to TA office hours: 4pm - 6pm Mondays and Wednesdays. [Zoom link](https://byu.zoom.us/j/5731989983).
-- Reference slides, class notes, and supplementary material *first*
-- Learn to use GitHub Copilot (eventually)
+- Reference slides, class notes, and supplementary material *first*.
+
+## FAQ | What role will generative AI play in this class?
+
+It's important to know how to use AI in an ethical and helpful way. This class has been designed with the intent that students can and should use generative AI (e.g. ChatGPT) to help them debug their code. However, one of the most valuable skills you'll gain through this course is the ability to think critically about how to solve business problems using data. I hope you will use AI as a tool to help you get your own original ideas across, not as a crutch to avoid stretching your brain.
 
 ## FAQ | How is marketing analytics used in practice?
 
@@ -138,7 +141,7 @@ This class provides three detailed demonstrations of how marketing analytics is 
 - Learn something hard now while you have help.
 - Please be patient with yourself, me, and others.
 
-## Be *generous* to Each Other
+## Be *Generous* to Each Other
 
 Justin Collings, Academic Vice President (Remember the Alamo Bowl):
 
@@ -156,11 +159,13 @@ Justin Collings, Academic Vice President (Remember the Alamo Bowl):
 ![](Figures/process.png){width=900px}
 </center>
 
-## Identify | Specify the Managerial Decision and Evaluate Data
+## Identify | Specify the Managerial Problem and Evaluate Data
 
-To inform managerial decision-making there needs to be a decision to begin with. Having a well-defined managerial decision is what separates data analytics from **data mining**.
+One of the most important skills you will gain over the course of the semester is the ability to recognize business pain points and translate them into specific and actionable analyses.
 
-What data is needed should be evaluated with the managerial decision in mind and not the *other way around*.
+You will also learn how to synthesize data from multiple sources, and ask questions that can reasonably be answered based on the available data.
+
+Good marketing analytics begins with asking the right questions and obtaining the right data.
 
 ## Import | Acquire the Needed Data
 
@@ -172,17 +177,17 @@ While primary data is gathered specifically to serve the research objectives at 
 - What was collected?
 - How was it collected?
 
-Acquiring secondary data may require interfacing with databases, using APIs, scraping the Web, etc.
+Acquiring secondary data may require interacting with databases, using APIs,  web scraping, etc.
 
 ## Tidy and Transform | Wrangle the Data
 
-Secondary data can be **messy**. Data wrangling includes whatever tidying, cleaning, mutating, munging, selecting, transforming, renaming, fusing, or filtering is needed to get the data into the needed form to summarize and model.
+Secondary data can be **messy**. Data wrangling includes whatever tidying, cleaning, mutating, selecting, transforming, renaming, fusing, or filtering is needed to get the data into the needed form to summarize and model.
 
-This can be *tedious*.
+This can be *tedious*, but it is a vital analytics skill.
 
 ## Visualize | Summarize the Data
 
-Summarizing data is initially about discovery. It includes computing **statistics** (i.e., numerical summaries) and **data visualization** (i.e., graphical summaries).
+Summarizing data is initially about discovery. It includes computing **statistics** (i.e., numerical summaries) and creating **data visualizations** (i.e., graphical summaries).
 
 - Summarizing data is closely tied with data wrangling.
 - Summarizing data is often not an end in itself.
@@ -218,7 +223,7 @@ The analyst needs to **interpret results in a way that clearly informs the manag
 ## Exercise 1
 
 1. Read the syllabus. 
-2. Sign up for [Posit Cloud](http://posit.cloud) and join the course [here](https://posit.cloud/spaces/571582/join?access_code=jp8-DQDeNLj6xSI4CHsRtAzsncKvfhiOEgfOogTH).
+2. Download and install the latest version of [R and RStudio](https://posit.co/download/rstudio-desktop/) (in that order). (If you have a Mac, note the difference between Intel and Apple silicon!)
 3. Email me with questions or concerns you haven't had answered and/or what topics you're most excited to cover.
 4. Read the case and write how you might meet the expectations (no more than one page).
 5. Submit your response as a Word document on Canvas by the beginning of class Tuesday and be prepared to share with the class.
