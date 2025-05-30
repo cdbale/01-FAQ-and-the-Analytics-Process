@@ -123,7 +123,7 @@ This class provides three detailed demonstrations of how marketing analytics is 
 
 - We use the case study data in class for the entire unit.
 - You'll use the case study data for the exercises.
-- Each unit culminates in a project that finalizes answers for the case study.
+- Each unit culminates in a project where you'll be introduced to a new scenario and data source, and required to demonstrate the skills you've learned.
 
 ## FAQ | How difficult is this going to be?
 
