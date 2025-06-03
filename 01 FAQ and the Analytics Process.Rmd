@@ -123,7 +123,7 @@ This class provides three detailed demonstrations of how marketing analytics is 
 
 - We use the case study data in class for the entire unit.
 - You'll use the case study data for the exercises.
-- Each unit culminates in a project that finalizes answers for the case study.
+- Each unit culminates in a project where you'll be introduced to a new scenario and data source, and required to demonstrate the skills you've learned.
 
 ## FAQ | How difficult is this going to be?
 
@@ -222,8 +222,10 @@ The analyst needs to **interpret results in a way that clearly informs the manag
 
 ## Exercise 1
 
-1. Read the syllabus. 
-2. Download and install the latest version of [R and RStudio](https://posit.co/download/rstudio-desktop/) (in that order). (If you have a Mac, note the difference between Intel and Apple silicon!)
-3. Email me with questions or concerns you haven't had answered and/or what topics you're most excited to cover.
-4. Read the case and write how you might meet the expectations (no more than one page).
+1. Read the syllabus.  
+2. Download and install the latest version of [R and RStudio](https://posit.co/download/rstudio-desktop/) (in that order). (If you have a Mac, note the difference between Intel and Apple silicon!)  
+3. Email me with questions or concerns you haven't had answered and/or what topics you're most excited to cover.  
+4. Read the following prompt and write about what kind of data you would need, and how you might try to analyze it to meet the company's needs (no more than 1 page):  
+*You’ve been hired by Patagonia to help evaluate the health of its customer base. While the brand has a strong reputation and loyal following, recent internal reports suggest shifts in who is buying Patagonia products — including changes in age, income level, geographic location, and shopping habits. Your task is to determine how healthy Patagonia’s current customer base is and identify potential gaps or emerging trends.*
 5. Submit your response as a Word document on Canvas by the beginning of class Tuesday and be prepared to share with the class.
+
