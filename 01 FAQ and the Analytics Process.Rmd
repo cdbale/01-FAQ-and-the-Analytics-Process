@@ -226,6 +226,6 @@ The analyst needs to **interpret results in a way that clearly informs the manag
 2. Download and install the latest version of [R and RStudio](https://posit.co/download/rstudio-desktop/) (in that order). (If you have a Mac, note the difference between Intel and Apple silicon!)  
 3. Email me with questions or concerns you haven't had answered and/or what topics you're most excited to cover.  
 4. Read the following prompt and write about what kind of data you would need, and how you might try to analyze it to meet the company's needs (no more than 1 page):  
-   *You’ve been hired by a local gym that offers fitness classes, personal training, and online workout subscriptions. Lately, the owner has noticed that while many people sign up for free trials, only a small percentage of them become paying members. They want to understand why more people aren’t converting — and how to improve sign-ups, engagement, and retention.*  
+*You’ve been hired by Patagonia to help evaluate the health of its customer base. While the brand has a strong reputation and loyal following, recent internal reports suggest shifts in who is buying Patagonia products — including changes in age, income level, geographic location, and shopping habits. Your task is to determine how healthy Patagonia’s current customer base is and identify potential gaps or emerging trends.*
 5. Submit your response as a Word document on Canvas by the beginning of class Tuesday and be prepared to share with the class.
 
