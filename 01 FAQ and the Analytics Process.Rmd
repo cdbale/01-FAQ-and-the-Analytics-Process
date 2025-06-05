@@ -91,6 +91,11 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 4. Look at and emulate good code.
 5. Literally sketch what transformed data should look like in the end.
 
+## FAQ | What's the best way to learn how to code?
+
+<center>
+![](Figures/coding.png){width=375px}
+
 ## FAQ | How will this help me in the future?
 
 <center>
