@@ -1,30 +1,107 @@
 ---
-title: "FAQ and the Analytics Process"
-subtitle: "MKTG 411 Marketing Analytics"
+title: "Welcome to the MCB Consulting Group!"
+subtitle: "(MKTG 411 Marketing Analytics)"
 output: 
   ioslides_presentation:
     widescreen: true
     css: style.css
 ---
 
-## Marketing Analytics
+## Congratulations on Your New Job!
 
-Analytics is the process of **using data to inform managerial decision-making**.
+You are a new consultant with the MCB Consulting Group.
+
+(Note: this is not an **actual** job, nor will you receive any monetary compensation.)
+
+## MCB Was Founded in 2017
+
+![](Figures/wedding.jpg){width=800px}
+
+## The Founders Began Moonlighting as BYU Profs. in 2024
+
+<div class="columns-2">
+
+<div>
+![](Figures/cameron.jpg){width=300px}
+</div>
+
+<div>
+![](Figures/morgan.jpg){width=300px}
+</div>
+
+</div>
+
+## So We've Hired Co-CEOs to Help Run Things
+
+![](Figures/daughters.jpg){width=800px}
+
+## And I've Hired You to Do Analytics!
+
+![](Figures/intern.png){width=600px}
+
+## You Will Interact with the CAO (Me) and our Senior Analytics Partners
+
+<div class="columns-2">
+
+<div>
+![](Figures/cameron.jpg){width=300px}
+</div>
+
+<div>
+![](Figures/morgan.jpg){width=300px}
+</div>
+
+</div>
+
+## You Will Interact with the CAO (Me) and our Senior Analytics Partners
+
+<div class="columns-2">
+
+<div>
+![](Figures/cameron.jpg){width=300px}
+</div>
+
+<div>
+![](Figures/morgan.jpg){width=300px}
+</div>
+
+</div>
+
+## Let's Dive In!
+
+![](Figures/diving.png){width=400px}
+
+## Marketing Analytics uses Data to Inform Managerial Decision Making
 
 - What are the key managerial decisions in marketing?
 - What is the difference between *inform* and *drive*?
 - What are some examples of marketing analytics in practice?
 
-To accomplish this, in this course we will be learning to analyze data in R.
+To accomplish this, we will be learning to analyze data in R.
 
-## Share what you learn!
+## If you "Show Up", You Can Obtain the Following (Learning Objectives)
 
-> "Good inspiration is based upon good information." -President Russell M. Nelson (April 2018)
+- Increased faith in Jesus Christ, by which you will obtain the confidence and courage to not only program in R and conduct analyses, but to communicate results of those analyses in a way that is practical and relevant to business practice.
+- The ability to conduct analyses with integrity by clearly documenting decision processes, identifying and communicating flaws in data and models, and quantifying uncertainty.
+- Self-motivation to continually improve and to take responsibility for mistakes.
+- The ability to recognize and develop excellence in your own analytical work and the work of others.
 
-- Bad information can limit inspiration.
-- Scientific and spiritual learning run in tandem.
-- We need to be willing to learn from evidence.
-- Admitting uncertainty isn't a bad thing.
+## You Will Submit Three Types of Deliverables for Evaluation
+
+- Skill-Building Exercises
+  - due at the start of every class
+  - self-evaluation (I will provide a rubric)
+- Knowledge Checks
+  - About 25 multiple choice or fill-in-the-blank questions (Canvas)
+  - Automatically graded
+  - One due at the end of each unit
+  
+## You Will Submit Three Types of Deliverables for Evaluation
+
+- Projects
+  - A "client" provides data and a list of problems - you put together an analysis to address one of the problems
+  - Evaluated by each senior analytics partner, given the average score
+  - Includes an evaluation of another consultant's project
 
 ## FAQ | What am I expected to know *now*?
 
@@ -51,18 +128,21 @@ R is a free, open-source programming language for statistical computing, analysi
 - A very active and helpful community.
 - What you can *do* with R is in high demand.
 
+## FAQ | Would I Ever Use R Outside the Classroom?
+
+**YES!**
+
+[Google uses R.](https://www.linkedin.com/jobs/view/4321895082/)
+
+[Netflix uses R.](https://explore.jobs.netflix.net/careers/job/790312518472?microsite=netflix.com)
+
 ## FAQ | What are we going to do? (What can I put on my resume?)
 
 - Visualize, wrangle, and summarize data.
-- Acquire data from a variety of sources (e.g., databases, web scraping).
+- Acquire data from a variety of sources (e.g., databases, APIs).
 - Produce reports and interactive dashboards.
 - Implement a variety of inferential and predictive models.
-
-## FAQ | Wait, can't I use _____ to do that?
-
-- You'll find that no single programming language is the *best* at everything.
-- I switch between R and Python for different tasks for the same project.
-- R is the most *accessible*, general-purpose data analysis tool I can teach you.
+- Translate empirical results in managerial insights.
 
 ## FAQ | My internship/job expects me to know Python. How do I learn it?
 
@@ -75,17 +155,17 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 ## FAQ | How do I study for a class like this?
 
 1. Seek learning by study and faith (D&C 109:7).
-2. Prepare for class by previewing material and coming with questions.
-3. Actively code, take notes, and ask questions during class.
+2. Prepare for meetings by previewing material and coming with questions.
+3. Actively code, take notes, and ask questions during meetings.
 4. Practice coding by completing exercises and referencing supplementary material as needed.
 5. Review exercise solutions and note where and why your work differs.
-6. Use the quizzes to gauge how well you understand the material.
+6. Use the knowledge checks to gauge how well you understand the material.
 7. Work with classmates and utilize office hours.
-8. Download and organize all course materials, notes, and code.
+8. Download and organize all materials, notes, and code.
 
 ## FAQ | What's the best way to learn how to code?
 
-1. Learn by doing: Code in class and complete exercises.
+1. Learn by doing: Code during meetings and complete exercises.
 2. Pay *careful* attention to details. READ SLOWLY.
 3. Don't code from scratch. Start with previous work and solutions.
 4. Look at and emulate good code.
@@ -94,7 +174,7 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 ## FAQ | What's the best way to learn how to code?
 
 <center>
-![](Figures/coding.png){width=375px}
+![](Figures/coding.png){width=425px}
 
 ## FAQ | How will this help me in the future?
 
@@ -106,21 +186,53 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 
 |                                              |     |
 | :------------------------------------------- | :-: |
-| Exercises                                    | 20% |
-| Quizzes                                      | 30% |
+| Skill-Building Exercises                                    | 20% |
+| Knowlege Checks                                      | 30% |
 | Projects                                     | 50% |
 
 ## FAQ | How can I get help?
 
 - Email me: [cameron.bale@byu.edu](mailto:cameron.bale@byu.edu)
 - Office Hours: [By appointment](https://calendly.com/camdbresearch/30min)
-- Contact the TA: [esbudge@student.byu.edu](mailto:esbudge@student.byu.edu), Phone: 636-226-5419 (for emergencies only, or if email unanswered after 72 hours.)
-- Go to TA office hours: 4pm - 6pm Mondays and Wednesdays. [Zoom link](https://byu.zoom.us/j/5731989983).
-- Reference slides, class notes, and supplementary material *first*.
+- Contact the Senior Analytics Partners: see the next slide for contact information.
+- Reference slides, notes, and supplementary material *first*.
+
+## Get Help from the Senior Analytics Partners
+
+- Lark Lapicola \vspace{-3mm}
+    - Contact: [artsylar@student.byu.edu](mailto:artsylar@student.byu.edu)
+    - Office Hours:
+    
+- Vincent Crowns \vspace{-3mm}
+    - Contact: [v1842@student.byu.edu](mailto:v1842@student.byu.edu)
+    - Office Hours:
+
+- Ethan Miller \vspace{-3mm}
+    - Contact: [middlee@student.byu.edu](mailto:middlee@student.byu.edu)
+    - Office Hours:
+    
+- Rebecca Stark \vspace{-3mm}
+    - Contact: [rcstark0@student.byu.edu](mailto:rcstark0@student.byu.edu)
+    - Office Hours:
 
 ## FAQ | What role will generative AI play in this class?
 
-It's important to know how to use AI in an ethical and helpful way. This class has been designed with the intent that students can and should use generative AI (e.g. ChatGPT) to help them debug their code. However, one of the most valuable skills you'll gain through this course is the ability to think critically about how to solve business problems using data. I hope you will use AI as a tool to help you get your own original ideas across, not as a crutch to avoid stretching your brain.
+Artificial intelligence (AI) has become an indispensable tool for data science and analytics. As such, it is expected that employees will leverage AI capabilities in *understanding* and *writing* code. It is also expected that employees will *regulate* their own AI usage. [Early-stage research](https://arxiv.org/pdf/2506.08872v1) suggests that active ChatGPT usage can reduce learning skills, reflected in lower amounts of brain activity when performing tasks such as writing (or coding!). This represents a danger to the personal and spiritual growth of employees, but at the same time, we should seek to make the firm as productive as possible.
+
+The gospel always provides the necessary context for us to reconcile conflicting temporal and spiritual motivations. The following excerpt from ["Things as They Really Are 2.0"](https://www.churchofjesuschrist.org/study/broadcasts/worldwide-devotional-for-young-adults/2024/11/13bednar?lang=eng) gives some excellent perspective:
+
+## Remember to Work Toward What God Wants You to Become
+
+"Now, I believe AI appropriately can assist in gathering information, critiquing our thinking, evaluating our writing style, and accelerating an iterative process of learning “line upon line [and] precept upon precept.” But the divine capacities to create and work belong uniquely to each of us as sons and daughters of God. We undoubtedly can generate and produce fabulous content for [school/church/work] with AI. But the objective is not merely producing or presenting impressive content; rather, it is working and becoming what God intends and yearns for us to become."
+
+## Keep These Principles in Mind
+
+- AI is a *tool*, and is not good and bad in and of itself; its morality depends on how it is used. AI can assist in gathering information, critiquing thinking, and evaluating writing and coding, but it is not a source of truth and cannot replace personal revelation.
+- Over-reliance on AI can lead to both spiritual and temporal slothfulness. Our objective is not just the final product, but the process of working and learning line upon line and becoming the person God intends us to be.
+- AI cannot simulate, imitate, or replace the influence of the Holy Ghost. Spiritual discernment is essential when navigating content and uncovering truth.
+- AI should supplement, not replace, human work, creativity, and divine capacities.
+
+Remember - do not be "transformed from [employees] who can act into objects that are only acted upon."
 
 ## FAQ | How is marketing analytics used in practice?
 
@@ -138,9 +250,6 @@ This class provides three detailed demonstrations of how marketing analytics is 
 
 ## FAQ | How do I avoid getting overwhelmed?
 
-> "There is no way to go from knowing nothing about a subject to knowing something about a subject without going through a period of much frustration and suckiness. Push through. You'll suck less." -Hadley Wickham
-
-- Don't be afraid of this **learning pit**.
 - You aren't alone.
 - If you commit to learning, I'll gladly walk with you.
 - Learn something hard now while you have help.
@@ -230,7 +339,7 @@ The analyst needs to **interpret results in a way that clearly informs the manag
 1. Read the syllabus.  
 2. Download and install the latest version of [R and RStudio](https://posit.co/download/rstudio-desktop/) (in that order). (If you have a Mac, note the difference between Intel and Apple silicon!)  
 3. Email me with questions or concerns you haven't had answered and/or what topics you're most excited to cover.  
-4. Read the following prompt and write about what kind of data you would need, and how you might try to analyze it to meet the company's needs (no more than 1 page):  
-*You’ve been hired by Patagonia to help evaluate the health of its customer base. While the brand has a strong reputation and loyal following, recent internal reports suggest shifts in who is buying Patagonia products — including changes in age, income level, geographic location, and shopping habits. Your task is to determine how healthy Patagonia’s current customer base is and identify potential gaps or emerging trends.*
-5. Submit your response as a Word document on Canvas by the beginning of class Tuesday and be prepared to share with the class.
+4. Read the following prompt. Write about what kind of data you would need and how you might try to analyze it to meet the company's needs. 
+*You are consulting Patagonia to help evaluate the health of its customer base. While the brand has a strong reputation and loyal following, recent internal reports suggest shifts in who is buying Patagonia products — including changes in age, income level, geographic location, and shopping habits. Your task is to determine how healthy Patagonia’s current customer base is and identify potential gaps or emerging trends.*
+5. Submit your response as a Word document on Canvas by the beginning of class Tuesday.
 
