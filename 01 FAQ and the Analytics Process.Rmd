@@ -44,11 +44,11 @@ You are a new consultant with the MCB Consulting Group.
 <div class="columns-2">
 
 <div>
-![](Figures/cameron.jpg){width=300px}
+![](Figures/rebecca_headshot.jpg){width=300px}
 </div>
 
 <div>
-![](Figures/morgan.jpg){width=300px}
+![](Figures/vincent_headshot.jpg){width=300px}
 </div>
 
 </div>
@@ -58,11 +58,11 @@ You are a new consultant with the MCB Consulting Group.
 <div class="columns-2">
 
 <div>
-![](Figures/cameron.jpg){width=300px}
+![](Figures/lark_headshot.jpeg){width=300px}
 </div>
 
 <div>
-![](Figures/morgan.jpg){width=300px}
+![](Figures/ethan_headshot.jpeg){width=300px}
 </div>
 
 </div>
@@ -201,19 +201,19 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 
 - Lark Lapicola \vspace{-3mm}
     - Contact: [artsylar@student.byu.edu](mailto:artsylar@student.byu.edu)
-    - Office Hours:
+    - Office Hours: 2:00pm - 3:15pm Tu/Th
     
 - Vincent Crowns \vspace{-3mm}
     - Contact: [v1842@student.byu.edu](mailto:v1842@student.byu.edu)
-    - Office Hours:
+    - Office Hours: 1:00pm - 2:15pm M/W
 
 - Ethan Miller \vspace{-3mm}
     - Contact: [middlee@student.byu.edu](mailto:middlee@student.byu.edu)
-    - Office Hours:
+    - Office Hours: 5:00pm - 6:15pm Tu/Th
     
 - Rebecca Stark \vspace{-3mm}
     - Contact: [rcstark0@student.byu.edu](mailto:rcstark0@student.byu.edu)
-    - Office Hours:
+    - Office Hours: 11:00am - 12:15pm Tu/Th
 
 ## FAQ | What role will generative AI play in this class?
 
@@ -261,11 +261,42 @@ Justin Collings, Academic Vice President (Remember the Alamo Bowl):
 
 ''Ultimately, I suggest, *generosity* is about recognizing and honoring a common familial bond with our fellow children of God. It is by virtue of that recognition that 'all relationships within the BYU community [can] reflect devout love of God and a loving, genuine concern for the welfare of our neighbor.'''
 
+## I Want You In Discovery Mode!
+
+Our brains process the world in two ways:
+
+- Discovery Mode: you are curious and explorative, eager to try things, learn, and take calculated risks.
+- Defense Mode: you are cautious and protective, looking for threats whether real or imagined, and tend to avoid risks and retreat to safety.
+
+Both are necessary - but only one is conducive to effectively learning programming and analytics.
+
+[Get more information here.](https://www.catharticspacecounseling.com/blog/discover-mode-vs-defend-mode-how-your-brain-handles-anxiety) (not an endorsement of the services of Kristen Jacobsen)
+
+## Let's Take Calculated Risks Together
+
+This course contains different programming tasks which build in perceived risk/difficulty:
+
+- You complete a task with a known solution.
+- We complete an open-ended task together.
+- You complete a (semi) open-ended task typically with some specific steps along the way.
+- You complete a Knowledge check independently, but risk is very low **if you are present**
+- You complete an open-ended project, with help available from peers, analytics partners, and the CAO
+
+## I Want Your BYU Experience to Stengthen Your Testimony
+
+<center>
+![](Figures/survey_results.jpg){width=500px}
+</center>
+
 ---
 
 <center>
 ![](Figures/monsters_r.png){width=500px}
 </center>
+
+## Questions...?
+
+Let's get an overview of marketing analytics...
 
 ## Marketing Analytics Process
 
