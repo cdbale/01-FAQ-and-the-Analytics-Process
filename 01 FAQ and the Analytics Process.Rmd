@@ -13,6 +13,12 @@ You are a new consultant with the MCB Consulting Group.
 
 (Note: this is not an **actual** job, nor will you receive any monetary compensation.)
 
+<center>
+
+![](Figures/mcb_logo.png){width=400px}
+
+<center>
+
 ## MCB Was Founded in 2017
 
 ![](Figures/wedding.jpg){width=800px}
@@ -165,16 +171,20 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 
 ## FAQ | What's the best way to learn how to code?
 
-1. Learn by doing: Code during meetings and complete exercises.
-2. Pay *careful* attention to details. READ SLOWLY.
-3. Don't code from scratch. Start with previous work and solutions.
-4. Look at and emulate good code.
-5. Literally sketch what transformed data should look like in the end.
+To answer that, we first need to understand what [coding ACTUALLY is](https://www.youtube.com/shorts/twYMcd9cVxI)...
 
 ## FAQ | What's the best way to learn how to code?
 
 <center>
 ![](Figures/coding.png){width=425px}
+
+## FAQ | What's the best way to learn how to code?
+
+1. Learn by doing: Code during meetings and complete exercises.
+2. Pay *careful* attention to details. READ SLOWLY.
+3. Don't code from scratch. Start with previous work and solutions.
+4. Look at and emulate good code.
+5. Literally sketch what transformed data should look like in the end.
 
 ## FAQ | How will this help me in the future?
 
@@ -205,15 +215,15 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
     
 - Vincent Crowns \vspace{-3mm}
     - Contact: [v1842@student.byu.edu](mailto:v1842@student.byu.edu)
-    - Office Hours: 1:00pm - 2:15pm M/W
+    - Office Hours: 1:00pm - 2:15pm M/W (Blue Line)
 
 - Ethan Miller \vspace{-3mm}
     - Contact: [middlee@student.byu.edu](mailto:middlee@student.byu.edu)
-    - Office Hours: 5:00pm - 6:15pm Tu/Th
+    - Office Hours: 5:00pm - 6:15pm Tu/Th (Blue Line)
     
 - Rebecca Stark \vspace{-3mm}
     - Contact: [rcstark0@student.byu.edu](mailto:rcstark0@student.byu.edu)
-    - Office Hours: 11:00am - 12:15pm Tu/Th
+    - Office Hours: 11:00am - 12:15pm Tu/Th (Blue Line)
 
 ## FAQ | What role will generative AI play in this class?
 
