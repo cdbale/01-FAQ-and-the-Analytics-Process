@@ -21,7 +21,9 @@ You are a new consultant with the MCB Consulting Group.
 
 ## MCB Was Founded in 2017
 
-![](Figures/wedding.jpg){width=800px}
+<div class="founders-photo">
+<img src="Figures/wedding.JPG" alt="The MCB founders on their wedding day">
+</div>
 
 ## The Founders Began Moonlighting as BYU Profs. in 2024
 
@@ -39,7 +41,18 @@ You are a new consultant with the MCB Consulting Group.
 
 ## So We've Hired Co-CEOs to Help Run Things
 
-![](Figures/daughters.jpg){width=800px}
+<div class="intro-portrait">
+<img src="Figures/laityn_kenna.jpg" alt="Laityn and Kenna, our co-CEOs" height="500">
+</div>
+
+## We've Brought On a New Angel Investor!
+
+She joined us last Friday.
+
+<div class="angel-investor-photos">
+<img src="Figures/emory_basket.jpeg" alt="Emory sleeping in a basket" height="440">
+<img src="Figures/emory_close.jpeg" alt="A close-up of Emory" height="440">
+</div>
 
 ## And I've Hired You to Do Analytics!
 
@@ -50,68 +63,50 @@ You are a new consultant with the MCB Consulting Group.
 <div class="columns-2">
 
 <div>
-![](Figures/rebecca_headshot.jpg){width=300px}
+![](Figures/paige_headshot.jpeg){width=300px}
 </div>
 
 <div>
-![](Figures/vincent_headshot.jpg){width=300px}
+![](Figures/izzy_headshot.jpg){width=300px}
 </div>
 
 </div>
-
-## You Will Interact with the CAO (Me) and our Senior Analytics Partners
-
-<div class="columns-2">
-
-<div>
-![](Figures/lark_headshot.jpeg){width=300px}
-</div>
-
-<div>
-![](Figures/ethan_headshot.jpeg){width=300px}
-</div>
-
-</div>
-
-## Let's Dive In!
-
-![](Figures/diving.png){width=400px}
 
 ## Marketing Analytics uses Data to Inform Managerial Decision Making
 
 - What are the key managerial decisions in marketing?
 - What is the difference between *inform* and *drive*?
-- What are some examples of marketing analytics in practice?
 
 To accomplish this, we will be learning to analyze data in R.
 
 ## If you "Show Up", You Can Obtain the Following (Learning Objectives)
 
-- Increased faith in Jesus Christ, by which you will obtain the confidence and courage to not only program in R and conduct analyses, but to communicate results of those analyses in a way that is practical and relevant to business practice.
-- The ability to conduct analyses with integrity by clearly documenting decision processes, identifying and communicating flaws in data and models, and quantifying uncertainty.
-- Self-motivation to continually improve and to take responsibility for mistakes.
-- The ability to recognize and develop excellence in your own analytical work and the work of others.
+- Increased faith in Jesus Christ and the confidence to conduct analyses in R and communicate practical, business-relevant results.
+- The ability to analyze with integrity by documenting decisions, identifying limitations in data and models, and quantifying uncertainty.
+- The motivation to improve continually and take responsibility for mistakes.
+- The ability to recognize and cultivate excellence in your analytical work and that of others.
 
 ## You Will Submit Three Types of Deliverables for Evaluation
 
 - Skill-Building Exercises
   - due at the start of every class
-  - self-evaluation (I will provide a rubric)
+  - self-evaluation due exactly one week after the exercise is due (I will provide a rubric)
 - Knowledge Checks
-  - About 25 multiple choice or fill-in-the-blank questions (Canvas)
-  - Automatically graded
-  - One due at the end of each unit
+  - About 20 written questions, administered in class
+  - One completed at the end of each unit
   
 ## You Will Submit Three Types of Deliverables for Evaluation
 
 - Projects
   - A "client" provides data and a list of problems - you put together an analysis to address one of the problems
-  - Evaluated by each senior analytics partner, given the average score
+  - Evaluated by each senior analytics partner, given the median score
   - Includes an evaluation of another consultant's project
 
 ## FAQ | What am I expected to know *now*?
 
-Nothing. (Well, nothing about coding.)
+- Basic statistics: have a notion of probability, mean, median, and similar concepts.
+- Familiarity with hypothesis testing and regression is a bonus.
+- No prior coding experience is required.
 
 ## FAQ | What makes this course different from MKTG 401?
 
@@ -138,17 +133,30 @@ R is a free, open-source programming language for statistical computing, analysi
 
 **YES!**
 
-[Google uses R.](https://www.linkedin.com/jobs/view/4321895082/)
+- [Google: Business and Marketing Data Scientist (U.S.)](https://www.indeed.com/viewjob?jk=16daa824ed50170e)
+  - New York, NY or Mountain View, CA; qualifications mention coding with R.
+- [Amazon Ads: Marketing Decision Science Data Scientist](https://amazon.jobs/en/jobs/10516132/data-scientist-amazon-ads-marketing-decision-science)
+  - Basic qualifications list R among examples of statistical software experience.
 
-[Netflix uses R.](https://explore.jobs.netflix.net/careers/job/790312518472?microsite=netflix.com)
+*Examples checked September 2, 2026; postings may close.*
+
+<div class="notes">
+
+[Sources]
+
+- Google, Business and Marketing Data Scientist, Applied Machine Learning, U.S. posting on Indeed: https://www.indeed.com/viewjob?jk=16daa824ed50170e
+- Amazon Jobs, Job ID 10516132: https://amazon.jobs/en/jobs/10516132/data-scientist-amazon-ads-marketing-decision-science
+- Both postings were checked on September 2, 2026. The Google listing names New York, NY and Mountain View, CA as locations and includes Python, R, and SQL as coding examples. These are examples of career applications, not claims that this course alone meets all job qualifications. Postings may close.
+
+</div>
 
 ## FAQ | What are we going to do? (What can I put on my resume?)
 
 - Visualize, wrangle, and summarize data.
 - Acquire data from a variety of sources (e.g., databases, APIs).
-- Produce reports and interactive dashboards.
 - Implement a variety of inferential and predictive models.
-- Translate empirical results in managerial insights.
+- Translate empirical results into managerial insights.
+- Accelerate analytics with desktop AI clients and reusable skill files.
 
 ## FAQ | My internship/job expects me to know Python. How do I learn it?
 
@@ -157,6 +165,37 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 - Programming techniques and experience learned in R will make learning additional languages *much* easier.
 - The BYU Statistics department has excellent courses to teach you Python.
 - If you are interested, I can provide access to resources for self-driven study.
+
+## FAQ | Why Learn to Code If AI Can Do It?
+
+I agree with the premise: AI can already write useful code.
+
+- We are past asking, "Should I use AI?" The question is now, "When and how can I use AI?"
+- Use AI to complement and accelerate your abilities and productivity, not to replace your effort and learning.
+- Knowing how to code lets you read, test, and correct AI's work instead of blindly trusting it.
+
+**You are still responsible for the analysis and the decisions it informs.**
+
+## Deloitte | Verify the Evidence in Client Reports
+
+**What happened (2025):** An AI-assisted report for Australia's government included nonexistent references and a fabricated court quotation. Deloitte corrected the report and repaid nearly **A$98,000 of its A$440,000 fee**.
+
+**For marketers:** Verify the evidence behind market research, competitor claims, and campaign recommendations. Polished writing does not prove the evidence is real.
+
+[Sources: Associated Press](https://apnews.com/article/ab54858680ffc4ae6555b31c8fb987f3) and [refund reporting](https://psnews.com.au/government-urged-to-get-deloittes-total-fee-returned-for-delivering-a-botched-ai-report/167893/)
+
+<div class="notes">
+
+[Sources]
+
+- Selected from the user-provided AI Failure Examples.docx.pdf, example 8 (page 3).
+- Associated Press, October 7, 2025: https://apnews.com/article/ab54858680ffc4ae6555b31c8fb987f3
+- Australian Department of Employment and Workplace Relations, corrected report page: https://www.dewr.gov.au/assuring-integrity-targeted-compliance-framework/resources/targeted-compliance-framework-assurance-review-final-report
+- PS News, October 12, 2025, reporting on Senate Estimates: https://psnews.com.au/government-urged-to-get-deloittes-total-fee-returned-for-delivering-a-botched-ai-report/167893/
+- Later reporting identifies the repayment as nearly A$98,000. The US$290,000 figure in AP's initial story is the currency conversion of the total A$440,000 fee, not the repayment amount. Both amounts on this slide are Australian dollars. The department's report page records a further correction on February 3, 2026.
+- Human verification is a proposed safeguard; this slide does not claim that all report findings were invalid or that AI produced the entire report.
+
+</div>
 
 ## FAQ | How do I study for a class like this?
 
@@ -171,26 +210,64 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 
 ## FAQ | What's the best way to learn how to code?
 
-To answer that, we first need to understand what [coding ACTUALLY is](https://www.youtube.com/shorts/twYMcd9cVxI)...
-
-## FAQ | What's the best way to learn how to code?
-
-<center>
-![](Figures/coding.png){width=425px}
-
-## FAQ | What's the best way to learn how to code?
-
 1. Learn by doing: Code during meetings and complete exercises.
 2. Pay *careful* attention to details. READ SLOWLY.
 3. Don't code from scratch. Start with previous work and solutions.
 4. Look at and emulate good code.
 5. Literally sketch what transformed data should look like in the end.
+6. Use AI as a collaborator: ask for suggestions and explanations, not just solutions.
 
-## FAQ | How will this help me in the future?
+## Analytics Skills Help You Stand Out
 
-<center>
-![](Figures/analytics_levels.png){width=375px}
-</center>
+In Marketing Week's **2024 Career & Salary Survey**, **36.9%** of more than 3,000 brand-side marketers identified a data and analytics skills gap in their marketing function.
+
+- Data and analytics was the most commonly reported skills gap.
+- Business knowledge helps you ask the right questions; analytics helps you answer them with evidence.
+- Combining the two helps you turn data into useful marketing recommendations.
+
+[Source: Marketing Week](https://www.marketingweek.com/marketers-data-analysis-skills-gap/)
+
+<div class="notes">
+
+[Sources]
+
+- Adapted from the user-provided Marketing Analytics Pitch.pptx, slide 4, "Many Marketers Lack Analytics Skills."
+- Marketing Week's Career & Salary Survey 2024: https://www.marketingweek.com/marketers-data-analysis-skills-gap/
+- The source chart asks whether the business has identified skills gaps in the marketing department. The 36.9% figure concerns a reported team-level gap, not the percentage of individual marketers who lack analytics skills. These are 2024 survey results, not a current-year estimate.
+
+</div>
+
+## Analytics Roles Can Be Well Compensated
+
+**Average annual U.S. base salary**
+
+| Role | Average salary |
+| :--- | ---: |
+| Digital marketer | $61,519 |
+| Marketing analyst | $76,781 |
+
+*Source: Indeed salary snapshots, updated October 27, 2025.*
+
+These are role-level averages, not starting-salary promises. Differences in experience, location, and responsibilities also affect pay.
+
+<div class="notes">
+
+[Sources]
+
+- Adapted from the user-provided Marketing Analytics Pitch.pptx, slide 5, "Analytics Skills are Well-Compensated!"
+- The embedded Indeed screenshots (ppt/media/image4.png and image5.png) report U.S. average annual base salaries updated October 27, 2025. These historical figures are retained from the supplied deck rather than presented as current salaries.
+- Digital marketer: $61,519 average, $34,736 low, $108,954 high; 2.4k salaries taken from job postings over the preceding 36 months.
+- Marketing analyst: $76,781 average, $48,413 low, $121,773 high; 459 salaries taken from job postings over the preceding 36 months.
+- This is a descriptive comparison of different roles and samples, not a causal estimate of the salary premium from learning analytics.
+
+</div>
+
+## We'll Learn to Use AI Together
+
+- AI is progressing rapidly, and the tools keep changing.
+- I'm still learning how to use AI properly and to its full potential.
+- We'll experiment, check the results, and learn together.
+- Using AI thoughtfully is a transferable skill you can bring to any job or field.
 
 ## FAQ | How am I going to be graded?
 
@@ -204,32 +281,25 @@ To answer that, we first need to understand what [coding ACTUALLY is](https://ww
 
 - Email me: [cameron.bale@byu.edu](mailto:cameron.bale@byu.edu)
 - Office Hours: [By appointment](https://calendly.com/camdbresearch/30min)
-- Contact the Senior Analytics Partners: see the next slide for contact information.
+- Contact senior analytics partners.
 - Reference slides, notes, and supplementary material *first*.
+- Use AI as a tutor (we'll see examples of this in class).
 
 ## Get Help from the Senior Analytics Partners
 
-- Lark Lapicola \vspace{-3mm}
-    - Contact: [artsylar@student.byu.edu](mailto:artsylar@student.byu.edu)
-    - Office Hours: 2:00pm - 3:15pm Tu/Th (Blue Line)
-    
-- Vincent Crowns \vspace{-3mm}
-    - Contact: [v1842@student.byu.edu](mailto:v1842@student.byu.edu)
-    - Office Hours: 1:00pm - 2:15pm M/W (Blue Line)
+- Izzy Smith
+    - Contact: [is047894@student.byu.edu](mailto:is047894@student.byu.edu)
+    - Office Hours: M/W 3:30-4:30pm, Th 1:00-1:30pm (in-person, Blue Line)
 
-- Ethan Miller \vspace{-3mm}
-    - Contact: [middlee@student.byu.edu](mailto:middlee@student.byu.edu)
-    - Office Hours: 5:00pm - 6:15pm Tu/Th (Blue Line)
-    
-- Rebecca Stark \vspace{-3mm}
-    - Contact: [rcstark0@student.byu.edu](mailto:rcstark0@student.byu.edu)
-    - Office Hours: 11:00am - 12:15pm Tu/Th (Blue Line)
+- Paige Flake
+    - Contact: [paigeef@student.byu.edu](mailto:paigeef@student.byu.edu)
+    - Office Hours: M/W 8:30-9:45am (in-person, Blue Line)
 
 ## FAQ | What role will generative AI play in this class?
 
-Artificial intelligence (AI) has become an indispensable tool for data science and analytics. As such, it is expected that employees will leverage AI capabilities in *understanding* and *writing* code. It is also expected that employees will *regulate* their own AI usage. [Early-stage research](https://arxiv.org/pdf/2506.08872v1) suggests that active ChatGPT usage can reduce learning skills, reflected in lower amounts of brain activity when performing tasks such as writing (or coding!). This represents a danger to the personal and spiritual growth of employees, but at the same time, we should seek to make the firm as productive as possible.
+Artificial intelligence (AI) is an important analytics tool, and employees may use it to understand and write code. Employees must also regulate their own use. [Early-stage research](https://arxiv.org/pdf/2506.08872v1) suggests that active AI use may weaken learning during tasks such as writing or coding. We must balance the firm's productivity with each employee's intellectual and spiritual growth.
 
-The gospel always provides the necessary context for us to reconcile conflicting temporal and spiritual motivations. The following excerpt from ["Things as They Really Are 2.0"](https://www.churchofjesuschrist.org/study/broadcasts/worldwide-devotional-for-young-adults/2024/11/13bednar?lang=eng) gives some excellent perspective:
+The gospel helps reconcile temporal and spiritual priorities. The following excerpt from ["Things as They Really Are 2.0"](https://www.churchofjesuschrist.org/study/broadcasts/worldwide-devotional-for-young-adults/2024/11/13bednar?lang=eng) offers useful perspective:
 
 ## Remember to Work Toward What God Wants You to Become
 
@@ -237,9 +307,9 @@ The gospel always provides the necessary context for us to reconcile conflicting
 
 ## Keep These Principles in Mind
 
-- AI is a *tool*, and is not good and bad in and of itself; its morality depends on how it is used. AI can assist in gathering information, critiquing thinking, and evaluating writing and coding, but it is not a source of truth and cannot replace personal revelation.
-- Over-reliance on AI can lead to both spiritual and temporal slothfulness. Our objective is not just the final product, but the process of working and learning line upon line and becoming the person God intends us to be.
-- AI cannot simulate, imitate, or replace the influence of the Holy Ghost. Spiritual discernment is essential when navigating content and uncovering truth.
+- AI is a *tool*, neither good nor bad on its own. It can gather information and critique thinking, writing, or code, but it is not a source of truth and cannot replace personal revelation.
+- Overreliance on AI can foster spiritual and temporal laziness. The work and learning process matters as much as the final product.
+- AI cannot simulate or replace the influence of the Holy Ghost. Spiritual discernment remains essential.
 - AI should supplement, not replace, human work, creativity, and divine capacities.
 
 Remember - do not be "transformed from [employees] who can act into objects that are only acted upon."
@@ -267,7 +337,7 @@ This class provides three detailed demonstrations of how marketing analytics is 
 
 ## Be *Generous* to Each Other
 
-Justin Collings, Academic Vice President (Remember the Alamo Bowl):
+Justin Collings, Academic Vice President:
 
 ''Ultimately, I suggest, *generosity* is about recognizing and honoring a common familial bond with our fellow children of God. It is by virtue of that recognition that 'all relationships within the BYU community [can] reflect devout love of God and a loving, genuine concern for the welfare of our neighbor.'''
 
@@ -288,8 +358,7 @@ This course contains different programming tasks which build in perceived risk/d
 
 - You complete a task with a known solution.
 - We complete an open-ended task together.
-- You complete a (semi) open-ended task typically with some specific steps along the way.
-- You complete a Knowledge check independently, but risk is very low **if you are present**
+- You complete a (semi) open-ended task on your own.
 - You complete an open-ended project, with help available from peers, analytics partners, and the CAO
 
 ## I Want Your BYU Experience to Stengthen Your Testimony

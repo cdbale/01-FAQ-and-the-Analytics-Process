@@ -2,3 +2,46 @@ slides>slide.title-slide {
     background-image: url("Figures/hex_background.png");
     background-size: 100% 100%;
 }
+
+/* Crop the displayed wedding photo without changing the source image. */
+.founders-photo {
+    width: 900px;
+    max-width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.founders-photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 60%;
+    transform: scale(1.08);
+}
+
+.intro-portrait {
+    text-align: center;
+}
+
+.intro-portrait img {
+    height: 500px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.angel-investor-photos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.angel-investor-photos img {
+    height: 440px;
+    width: auto;
+    max-width: calc((100% - 40px) / 2);
+    object-fit: contain;
+}
