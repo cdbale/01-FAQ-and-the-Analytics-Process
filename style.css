@@ -45,3 +45,59 @@ slides>slide.title-slide {
     max-width: calc((100% - 40px) / 2);
     object-fit: contain;
 }
+
+/* Keep the case-study data and charts readable within the ioslides canvas. */
+.case-data-table table {
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.3;
+    font-variant-numeric: tabular-nums;
+}
+
+.case-data-table table th,
+.case-data-table table td {
+    font-size: inherit;
+    padding: 10px 8px;
+}
+
+.case-model-table table {
+    width: 100%;
+    font-size: 24px;
+    line-height: 1.2;
+    font-variant-numeric: tabular-nums;
+}
+
+.case-model-table table th,
+.case-model-table table td {
+    font-size: inherit;
+    padding: 8px 10px;
+}
+
+.case-chart {
+    text-align: center;
+    margin: 0;
+}
+
+.case-chart p {
+    margin: 0;
+}
+
+.case-chart img {
+    display: block;
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+slides > slide .case-caption {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #4b5563;
+}
+
+.case-equation {
+    margin: 28px 0;
+    font-size: 27px;
+}

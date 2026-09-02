@@ -1,21 +1,16 @@
 Please make the following changes. Note that you need to adjust the proceeding slide numbers in the instructions whenever I ask you to add a new slide.
 
-- Delete current slide 9 "Let's Dive In!"
-- Remove bullet point "What are some examples of marketing analytics in practice?" on slide 10
-- Replace the first link in slide 18 with a job that is in the U.S. rather than India
-- The last resume point on slide 19 is too long - it needs to be a shorter like the previous points, but still "punchy". Focus on desktop AI client assisted analytics and skill files
-- Remove the Zillow and AirCanada examples (slides 22 and 23). Directly state that Deloitte repayed $290,000 of their $440,000 fee. Remove the "How human review could help" and just state the "For Marketers" paragraph.
-- Remove Slide 26
-- Remove Slide 27
-- Slide 28: add another point about using AI as a collaborator - ask for suggestions and explanations, not just solutions.
-- Remove the diagram on slide 29. Create slides based on slides 4 and 5 from the Marketing Analytics Pitch powerpoint that I added to the folder. Add another slide outlining how AI is progressing rapidly, that I'm still learning how to use it properly and to its full potential, but we'll learn together. Proper AI usage skills alone are transferrable to any job or field.
-- Slide 31: shorten bullet 3 to "contact senior analytics partners"
-- Add another bullet to slide 31: Use AI - as a tutor (we'll see examples of this in class)
-- Update the contact info on slide 32 to match the contact info for the senior analytics partners in the syllabus
-- Update the statement on slide 33 to match the language used in the syllabus
-- Update the principles on slide 35 to match the ones in the syllabus
-- Remove "(Remember the Alamo Bowl)" on slide 39
-- Slide 41: change point 3 to completing a (semi) open ended task on your own. Remove bullet point 4.
+- Remove statement about ordering shortfall after checking inventory; protect equipment time for the other products.
+- For Exercise 1 (last slide) update the links to be the ones on the syllabus (R and RStudio separately)
+
+
+
+
+
+
+
+
+
 
 
 

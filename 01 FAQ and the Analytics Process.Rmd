@@ -168,8 +168,6 @@ Python is also a general-purpose data analysis tool, it just isn't as *accessibl
 
 ## FAQ | Why Learn to Code If AI Can Do It?
 
-I agree with the premise: AI can already write useful code.
-
 - We are past asking, "Should I use AI?" The question is now, "When and how can I use AI?"
 - Use AI to complement and accelerate your abilities and productivity, not to replace your effort and learning.
 - Knowing how to code lets you read, test, and correct AI's work instead of blindly trusting it.
@@ -178,7 +176,7 @@ I agree with the premise: AI can already write useful code.
 
 ## Deloitte | Verify the Evidence in Client Reports
 
-**What happened (2025):** An AI-assisted report for Australia's government included nonexistent references and a fabricated court quotation. Deloitte corrected the report and repaid nearly **A$98,000 of its A$440,000 fee**.
+**What happened (2025):** An AI-assisted report for Australia's government included nonexistent references and a fabricated court quotation. Deloitte corrected the report and repaid nearly **$98,000 of its $440,000 fee**.
 
 **For marketers:** Verify the evidence behind market research, competitor claims, and campaign recommendations. Polished writing does not prove the evidence is real.
 
@@ -192,10 +190,17 @@ I agree with the premise: AI can already write useful code.
 - Associated Press, October 7, 2025: https://apnews.com/article/ab54858680ffc4ae6555b31c8fb987f3
 - Australian Department of Employment and Workplace Relations, corrected report page: https://www.dewr.gov.au/assuring-integrity-targeted-compliance-framework/resources/targeted-compliance-framework-assurance-review-final-report
 - PS News, October 12, 2025, reporting on Senate Estimates: https://psnews.com.au/government-urged-to-get-deloittes-total-fee-returned-for-delivering-a-botched-ai-report/167893/
-- Later reporting identifies the repayment as nearly A$98,000. The US$290,000 figure in AP's initial story is the currency conversion of the total A$440,000 fee, not the repayment amount. Both amounts on this slide are Australian dollars. The department's report page records a further correction on February 3, 2026.
+- Later reporting identifies the repayment as nearly $98,000. The US$290,000 figure in AP's initial story is the currency conversion of the total $440,000 fee, not the repayment amount. Both amounts on this slide are Australian dollars. The department's report page records a further correction on February 3, 2026.
 - Human verification is a proposed safeguard; this slide does not claim that all report findings were invalid or that AI produced the entire report.
 
 </div>
+
+## We'll Learn to Use AI Together
+
+- AI is progressing rapidly, and the tools keep changing.
+- I'm still learning how to use AI properly and to its full potential.
+- We'll experiment, check the results, and learn together.
+- Using AI thoughtfully is a transferable skill you can bring to any job or field.
 
 ## FAQ | How do I study for a class like this?
 
@@ -248,7 +253,7 @@ In Marketing Week's **2024 Career & Salary Survey**, **36.9%** of more than 3,00
 
 *Source: Indeed salary snapshots, updated October 27, 2025.*
 
-These are role-level averages, not starting-salary promises. Differences in experience, location, and responsibilities also affect pay.
+Differences in experience, location, and responsibilities also affect pay.
 
 <div class="notes">
 
@@ -261,13 +266,6 @@ These are role-level averages, not starting-salary promises. Differences in expe
 - This is a descriptive comparison of different roles and samples, not a causal estimate of the salary premium from learning analytics.
 
 </div>
-
-## We'll Learn to Use AI Together
-
-- AI is progressing rapidly, and the tools keep changing.
-- I'm still learning how to use AI properly and to its full potential.
-- We'll experiment, check the results, and learn together.
-- Using AI thoughtfully is a transferable skill you can bring to any job or field.
 
 ## FAQ | How am I going to be graded?
 
@@ -391,6 +389,28 @@ You will also learn how to synthesize data from multiple sources, and ask questi
 
 Good marketing analytics begins with asking the right questions and obtaining the right data.
 
+## Cougar Tails | Identify the Planning Problem
+
+**Hypothetical case:** BYU concessions wants to predict cougar tail demand for each home football game next season.
+
+| Resource | Planning decision |
+| :--- | :--- |
+| Ingredients and packaging | How much should we order, and when? |
+| Bakery staff and equipment time | How much time should each campus bakery reserve for cougar tails versus other baked goods? |
+| Storage and delivery capacity | How much can we hold and move to the stadium? |
+
+**Too few:** stockouts and missed sales. **Too many:** waste and less capacity for other products.
+
+<div class="notes">
+
+- This is a fictional teaching scenario, not a description of actual BYU concessions operations.
+- The objective is a game-level unit forecast that informs ingredient orders and bakery scheduling across campus.
+- In practice, collect stockout times, unsold inventory, and other-product demand. Observed sales can understate demand when supply runs out.
+- All case figures and regression estimates come from Case-Study/build_cougar_tail_case.R, using ggplot2 for every chart, an R linear model, and a fixed random seed. No external records or assets were used.
+- Assume no stockouts, so recorded sales approximate demand. This teaching assumption is retained in notes rather than on the slide.
+
+</div>
+
 ## Import | Acquire the Needed Data
 
 While primary data is gathered specifically to serve the research objectives at hand, secondary data was gathered for another purpose. Consult the original and most current source whenever possible and understand its context (i.e., use the **data dictionary**).
@@ -403,11 +423,68 @@ While primary data is gathered specifically to serve the research objectives at 
 
 Acquiring secondary data may require interacting with databases, using APIs,  web scraping, etc.
 
+## Cougar Tails | Import Game-Level Records
+
+Join sales, schedules, weather, attendance, and pre-game ratings. **One row = one home game.**
+
+<div class="case-data-table">
+
+| Date | Week | Temp. (°F) | Attendance | BYU win % | Units sold | Sales ($) |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 2025-09-06 | 1 | 75 | 61,100 | 25 | 11,108 | 88,864 |
+| 2025-09-20 | 3 | **NA** | 58,300 | 55 | 8,747 | 69,976 |
+| 2025-10-04 | 5 | 74 | 58,800 | 55 | 8,258 | 66,064 |
+| 2025-11-01 | 9 | 81 | 90,000 | 85 | 5,095 | 40,760 |
+| 2025-11-15 | 11 | 45 | 58,300 | 85 | 10,091 | 80,728 |
+
+</div>
+
+- **NA** = missing.
+- **BYU win %** = a pre-game estimate, not the game result.
+
+<div class="notes">
+
+- The complete synthetic schedule has six home games per season, in season weeks 1, 3, 5, 7, 9, and 11: 60 games total.
+- The raw import has 59 rows because the 2025 week-7 game was deliberately omitted. The other planted issues are a missing week-3 temperature and impossible week-9 attendance.
+- Sales dollars equal units sold times the assumed constant $8 price. Dollars are an outcome, not a predictor of unit sales.
+- The data generator also returns the fictional full schedule and verified source records used in the cleaning example.
+
+</div>
+
 ## Tidy and Transform | Wrangle the Data
 
 Secondary data can be **messy**. Data wrangling includes whatever tidying, cleaning, mutating, selecting, transforming, renaming, fusing, or filtering is needed to get the data into the needed form to summarize and model.
 
 This can be *tedious*, but it is a vital analytics skill.
+
+## Cougar Tails | Tidy and Check the Records
+
+| Check | Problem in the raw import | Verify against source records |
+| :--- | :--- | :--- |
+| Missing values | Week 3 temperature is NA | Retrieve game-time readings from a nearby weather station's historical archive. |
+| Schedule coverage | Week 7 game is absent | Match the athletics season schedule to concessions' point-of-sale exports; retrieve the missing game's transactions. |
+| Reasonable values | Week 9 attendance is 90,000 | Check the stadium's seating capacity and verify attendance against ticket-scan records. |
+
+<div class="notes">
+
+- The 64,000 capacity is an exercise assumption, not a claim about LaVell Edwards Stadium's current capacity.
+- Cross-reference the full season schedule with the sales data using a unique season/game key. A missing row is different from a game with zero sales.
+- If a source cannot resolve a missing or impossible value, flag it and document the chosen treatment; do not silently invent a replacement.
+- The fictional recovered October 18 record has week 7, temperature 80°F, attendance 59,600, pre-game BYU win probability 25%, 10,411 units, and $83,288 sales.
+- The missing temperature is 90°F; corrected week-9 attendance is 49,900. After repairs, there are 60 complete records. In a real project, obtain these values from the sources described in the table rather than assume them.
+- Check revenue = units × $8 under this exercise's fixed-price assumption. These repairs restore the same complete records used for all charts and the regression.
+
+</div>
+
+## Cougar Tails | Transform a Pre-Game Rating
+
+Turn the estimated BYU win probability into an **opponent difficulty** category:
+
+| Estimated chance BYU wins | Difficulty | Example from the imported records |
+| :--- | :--- | :--- |
+| 70% or higher | Low | 85% → Low |
+| 40% to less than 70% | Medium | 55% → Medium |
+| Less than 40% | High | 25% → High |
 
 ## Visualize | Summarize the Data
 
@@ -416,6 +493,44 @@ Summarizing data is initially about discovery. It includes computing **statistic
 - Summarizing data is closely tied with data wrangling.
 - Summarizing data is often not an end in itself.
 
+## Cougar Tails | Explore Temperature and Sales
+
+Warmer games tend to have lower sales, with plenty of variation.
+
+<div class="case-chart">
+<img src="Figures/cougar_tail_temperature.png" alt="Scatter plot of 60 hypothetical games, showing a noisy negative association between game temperature and cougar tails sold." width="900" />
+</div>
+
+<p class="case-caption">Hypothetical data; each dot is one game. The line summarizes association, not causation.</p>
+
+## Cougar Tails | Compare Opponent Difficulty
+
+Average sales are higher against tougher opponents.
+
+<div class="case-chart">
+<img src="Figures/cougar_tail_opponent.png" alt="Bar chart of mean unit sales: Low difficulty 8,254 across 26 games; Medium 8,574 across 20 games; High 10,967 across 14 games." width="900" />
+</div>
+
+<p class="case-caption">Hypothetical data; averages across all 60 games. Other game characteristics differ across groups too.</p>
+
+## Cougar Tails | Look for a Seasonal Pattern
+
+Sales tend to decline across the season, with ups and downs.
+
+<div class="case-chart">
+<img src="Figures/cougar_tail_season_week.png" alt="Line chart of sales averaged across 10 seasons at each season week: 9,733, 10,197, 9,059, 9,252, 7,594, and 8,125 units in weeks 1, 3, 5, 7, 9, and 11." width="900" />
+</div>
+
+<p class="case-caption">Hypothetical data; each point averages the same season week across 10 seasons (10 games per point).</p>
+
+<div class="notes">
+
+- Align games by week within the season, then average across seasons. A single average for each calendar year would answer a different question.
+- The six week averages are 9,733.0; 10,196.6; 9,059.0; 9,252.4; 7,594.4; and 8,125.1 units.
+- The irregular line is intentional. Temperature, opponents, attendance, and unmeasured factors vary across games; this is not a causal estimate of the passage of time.
+
+</div>
+
 ## Model | Inference and Prediction
 
 Models *extract information* from the data to inform our managerial decision.
@@ -423,11 +538,137 @@ Models *extract information* from the data to inform our managerial decision.
 - In order to inform the marketing mix, the models we use are often inferential.
 - Some managerial decisions only rely on prediction.
 
+## Cougar Tails | Model Sales Together
+
+**Outcome: cougar tails sold per game.**
+
+<div class="case-equation">
+
+$$
+\begin{aligned}
+\text{Sales}_i ={}& \beta_0 + \beta_1\text{Week}_i \\
+&+ \beta_2\text{Medium}_i + \beta_3\text{High}_i \\
+&+ \beta_4\text{Temperature}_i + \beta_5\text{Attendance}_i + \varepsilon_i
+\end{aligned}
+$$
+
+</div>
+
+- **Week, temperature (°F), and attendance (people)** enter as continuous variables.
+- **Medium** and **High** are 0/1 indicators; **Low** is the reference category.
+- Each row is a game; the error term captures unexplained variation.
+
+## Cougar Tails | Read the Model Results
+
+**Linear regression of unit sales.**
+
+<div class="case-model-table">
+
+| Model term | Estimate (units) | Standard error |
+| :--- | ---: | ---: |
+| Intercept | 8,250 | 2,492 |
+| Season week: 1 week later | −270 | 39 |
+| Medium difficulty vs. Low | +776 | 282 |
+| High difficulty vs. Low | +2,292 | 340 |
+| Temperature: 1°F warmer | −94.77 | 9.61 |
+| Attendance: 1 more person | +0.150 | 0.046 |
+
+</div>
+
+<div class="notes">
+
+- The displayed coefficients and standard errors are rounded from an actual OLS fit to the same synthetic data shown earlier; they are not independently invented table entries.
+- Formula: units ~ season_week + difficulty + temperature_f + attendance. Temperature and attendance are unbinned numeric variables in their original units; Low difficulty is the reference category, not an equally spaced numeric rating.
+- The intercept is the fitted value at week 0, temperature 0°F, attendance 0, and Low difficulty. That combination is outside the observed range; use the full equation for realistic games, not the intercept on its own.
+- Each coefficient is an association holding the other included predictors constant, not a causal effect. In-sample R-squared is 0.788, not a forecast accuracy score.
+- The date is represented by season week. The win-probability estimate is represented by the difficulty categories. Revenue is deliberately excluded because it is calculated directly from units sold.
+- In real forecasting, use the known schedule and pre-game difficulty estimates plus forecast temperature and expected attendance, not future actual observations. Revisit forecasts as game day approaches.
+- Standard errors are conventional OLS standard errors for illustration. This toy model is not validated for real BYU decisions; use a held-out season to assess prediction error and uncertainty before relying on it.
+
+</div>
+
 ## Communicate | Report and Create Data Products
 
 Effectively communicating marketing insights brings us full circle and highlights the necessity of domain expertise.
 
 The analyst needs to **interpret results in a way that clearly informs the managerial decision**. You may hear this referred to as "storytelling."
+
+## Cougar Tails | Communicate the Findings
+
+**In this hypothetical dataset:**
+
+- Warmer temperatures and later season weeks are **associated with lower sales**.
+- Tougher opponents and larger crowds are **associated with higher sales** in the fitted model.
+- The patterns may help forecast demand; they do **not** show that changing temperature or opponents would cause sales to change.
+
+Use game-level forecasts to plan ingredient orders and bakery time, with a buffer for uncertainty and room for other baked goods.
+
+## Cougar Tails | Brief Concessions Managers
+
+**Upcoming game:** Week 3, High difficulty, 70°F, 60,000 attendees.
+
+| Planning measure | Takeaway |
+| :--- | :--- |
+| Expected sales | About **12,100 tails** |
+| 80% model prediction interval | About **10,800–13,300 tails** |
+| Production target | **13,300 tails** |
+
+Reserve inventory and production capacity for the target. Update the plan as weather and attendance forecasts change.
+
+We use the upper interval amount to balance the risk of missed sales against waste; it is not a guarantee that we won't sell out.
+
+<div class="notes">
+
+- All scenario inputs are teaching assumptions. The model fitted to all 60 synthetic games predicts 12,079 units, with an 80% OLS prediction interval of 10,827–13,331 units for a single upcoming game.
+- The displayed forecast and interval are rounded to the nearest hundred. The production target uses the upper prediction limit with the same rounding: round(13,331 / 100) × 100 = 13,300.
+- Choosing the upper interval amount is a management decision, not a statistically optimized inventory policy. The model prediction interval is conditional on the supplied predictor values and does not include uncertainty in future weather or attendance inputs.
+- The case assumes no historical stockouts. Actual forecasting would also need stockout records and evaluation across more held-out seasons.
+
+</div>
+
+## Cougar Tails | Brief Bakery and Purchasing
+
+Assume each baker can produce **1,200 tails** in a 12-hour window. We need **12 bakers**: 11 can produce only 13,200.
+
+| Production assignment | Staff allocation |
+| :--- | ---: |
+| Cougar tails | 12 bakers |
+| Mint brownies | 2 additional production staff |
+| Kettle corn | 2 additional production staff |
+| **Total** | **16 people** |
+
+Stage ingredients for **133 batches of 100 tails** and 13,300 sleeves.
+
+<div class="notes">
+
+- Production rates, staffing, batch size, and packaging requirements are assumptions for the classroom case, not verified BYU operating standards.
+- Required cougar-tail bakers = ceiling(13,300 / 1,200) = 12. Their combined capacity is 14,400, but the production target remains 13,300 rather than automatically using all capacity.
+- The 1,200-tail capacity is each baker's total contribution within the 12-hour production window, not a requirement for a continuous 12-hour shift; schedule breaks and coverage within that capacity assumption.
+- The staffing plan reserves two additional people for mint brownies and two for kettle corn, for 16 total. These other-product allocations are planning assumptions, not outputs of the cougar-tail model.
+- Ingredients come from the recipe bill of materials for 133 batches of 100 tails. Check on-hand usable ingredients, packaging, supplier lead times, equipment capacity, storage, and delivery before committing the schedule across campus bakeries.
+
+</div>
+
+## Cougar Tails | Brief the Analytics Team
+
+- **Temperature:** 1°F warmer is associated with about **95 fewer units**, holding the other included predictors constant.
+- **Attendance:** 1,000 more people is associated with about **150 more units**, under the same adjustment.
+
+| 2025 holdout: 6 games | Mean absolute error |
+| :--- | ---: |
+| Regression trained on 2016–2024 | **671 tails per game** |
+| Always predict the training-set mean | **1,585 tails per game** |
+
+The model improves on this simple baseline. Monitor forecast error by game.
+
+<div class="notes">
+
+- Validation uses a separate fit on 54 games from 2016–2024 and tests on six games from 2025. Neither the coefficients nor the baseline mean use holdout outcomes.
+- After validation, the presentation's coefficient table and upcoming-game forecast use a refit on all 60 records. Both sets of results are calculated by Case-Study/build_cougar_tail_case.R.
+- These are retrospective predictions using observed weather and attendance; operational evaluation should use the forecasts available when ingredient and staffing decisions are made.
+- One six-game holdout is not enough to establish operational reliability. Check multiple held-out seasons, prediction-interval coverage, and whether stockouts censor demand before deployment.
+
+</div>
 
 ## Wrapping Up
 
@@ -447,7 +688,7 @@ The analyst needs to **interpret results in a way that clearly informs the manag
 ## Exercise 1
 
 1. Read the syllabus.  
-2. Download and install the latest version of [R and RStudio](https://posit.co/download/rstudio-desktop/) (in that order). (If you have a Mac, note the difference between Intel and Apple silicon!)  
+2. Download and install the latest versions of [R](https://cran.r-project.org/) and [RStudio Desktop](https://posit.co/download/rstudio-desktop/) (in that order). (If you have a Mac, note the difference between Intel and Apple silicon!)  
 3. Email me with questions or concerns you haven't had answered and/or what topics you're most excited to cover.  
 4. Read the following prompt. Write about what kind of data you would need and how you might try to analyze it to meet the company's needs. 
 *You are consulting Patagonia to help evaluate the health of its customer base. While the brand has a strong reputation and loyal following, recent internal reports suggest shifts in who is buying Patagonia products — including changes in age, income level, geographic location, and shopping habits. Your task is to determine how healthy Patagonia’s current customer base is and identify potential gaps or emerging trends.*
