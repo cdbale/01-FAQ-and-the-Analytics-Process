@@ -1,8 +1,3 @@
-Please make the following changes. Note that you need to adjust the proceeding slide numbers in the instructions whenever I ask you to add a new slide.
-
-- Remove statement about ordering shortfall after checking inventory; protect equipment time for the other products.
-- For Exercise 1 (last slide) update the links to be the ones on the syllabus (R and RStudio separately)
-
 
 
 
