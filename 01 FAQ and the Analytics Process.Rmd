@@ -383,20 +383,20 @@ Let's get an overview of marketing analytics...
 
 ## Identify | Specify the Managerial Problem and Evaluate Data
 
-One of the most important skills you will gain over the course of the semester is the ability to recognize business pain points and translate them into specific and actionable analyses.
+Good marketing analytics begins with asking/addressing the right questions and obtaining the right data.
 
-You will also learn how to synthesize data from multiple sources, and ask questions that can reasonably be answered based on the available data.
+One of the most important skills you will gain over the course of the semester is the ability to address business pain points using analytics that produce actionable results. 
 
-Good marketing analytics begins with asking the right questions and obtaining the right data.
+**Based on the data, what should the course of action be?**
 
 ## Cougar Tails | Identify the Planning Problem
 
-**Hypothetical case:** BYU concessions wants to predict cougar tail demand for each home football game next season.
+**Hypothetical case:** BYU concessions wants to predict cougar tail demand for each home football game next season. Main question: **How many cougar tails should be produced for the next game?**
 
 | Resource | Planning decision |
 | :--- | :--- |
 | Ingredients and packaging | How much should we order, and when? |
-| Bakery staff and equipment time | How much time should each campus bakery reserve for cougar tails versus other baked goods? |
+| Bakery staff and equipment time | How much time and staff should each campus bakery reserve for cougar tails versus other baked goods? |
 | Storage and delivery capacity | How much can we hold and move to the stadium? |
 
 **Too few:** stockouts and missed sales. **Too many:** waste and less capacity for other products.
@@ -411,9 +411,15 @@ Good marketing analytics begins with asking the right questions and obtaining th
 
 </div>
 
+## Marketing Analytics Process
+
+<center>
+![](Figures/process.png){width=900px}
+</center>
+
 ## Import | Acquire the Needed Data
 
-While primary data is gathered specifically to serve the research objectives at hand, secondary data was gathered for another purpose. Consult the original and most current source whenever possible and understand its context (i.e., use the **data dictionary**).
+We will typically work with **secondary data** (data that was gathered for another purpose). Consult the original and most current source whenever possible and understand its context (i.e., use the **data dictionary**).
 
 - Who collected it?
 - Why was it collected?
@@ -439,7 +445,6 @@ Join sales, schedules, weather, attendance, and pre-game ratings. **One row = on
 
 </div>
 
-- **NA** = missing.
 - **BYU win %** = a pre-game estimate, not the game result.
 
 <div class="notes">
@@ -451,9 +456,15 @@ Join sales, schedules, weather, attendance, and pre-game ratings. **One row = on
 
 </div>
 
+## Marketing Analytics Process
+
+<center>
+![](Figures/process.png){width=900px}
+</center>
+
 ## Tidy and Transform | Wrangle the Data
 
-Secondary data can be **messy**. Data wrangling includes whatever tidying, cleaning, mutating, selecting, transforming, renaming, fusing, or filtering is needed to get the data into the needed form to summarize and model.
+Secondary data can be **messy**. Data wrangling includes whatever tidying, cleaning, mutating, selecting, transforming, renaming, or filtering is needed to get the data into the needed form to summarize and model.
 
 This can be *tedious*, but it is a vital analytics skill.
 
@@ -486,12 +497,18 @@ Turn the estimated BYU win probability into an **opponent difficulty** category:
 | 40% to less than 70% | Medium | 55% → Medium |
 | Less than 40% | High | 25% → High |
 
+## Marketing Analytics Process
+
+<center>
+![](Figures/process.png){width=900px}
+</center>
+
 ## Visualize | Summarize the Data
 
 Summarizing data is initially about discovery. It includes computing **statistics** (i.e., numerical summaries) and creating **data visualizations** (i.e., graphical summaries).
 
 - Summarizing data is closely tied with data wrangling.
-- Summarizing data is often not an end in itself.
+- Summarizing data is not an end in itself.
 
 ## Cougar Tails | Explore Temperature and Sales
 
@@ -530,6 +547,12 @@ Sales tend to decline across the season, with ups and downs.
 - The irregular line is intentional. Temperature, opponents, attendance, and unmeasured factors vary across games; this is not a causal estimate of the passage of time.
 
 </div>
+
+## Marketing Analytics Process
+
+<center>
+![](Figures/process.png){width=900px}
+</center>
 
 ## Model | Inference and Prediction
 
@@ -587,6 +610,12 @@ $$
 
 </div>
 
+## Marketing Analytics Process
+
+<center>
+![](Figures/process.png){width=900px}
+</center>
+
 ## Communicate | Report and Create Data Products
 
 Effectively communicating marketing insights brings us full circle and highlights the necessity of domain expertise.
@@ -601,7 +630,37 @@ The analyst needs to **interpret results in a way that clearly informs the manag
 - Tougher opponents and larger crowds are **associated with higher sales** in the fitted model.
 - The patterns may help forecast demand; they do **not** show that changing temperature or opponents would cause sales to change.
 
+## How Does this Model Inform Our Production Decision??
+
+## How Does this Model Inform Our Production Decision??
+
 Use game-level forecasts to plan ingredient orders and bakery time, with a buffer for uncertainty and room for other baked goods.
+
+## Cougar Tails | Brief the Analytics Team
+
+Establish whether our model **provides useful predictions**. In other words, does the model **add value**. 
+
+What could we use as a baseline prediction approach to evaluate model value-add?
+
+## Cougar Tails | Brief the Analytics Team
+
+Establish whether our model **provides useful predictions**.
+
+| Prediction Approach | Prediction Error |
+| :--- | ---: |
+| Regression trained on 2016–2024 | **671 tails per game** |
+| Predict the average sales of past games | **1,585 tails per game** |
+
+The model improves on this simple baseline. Continue to monitor forecast error by game.
+
+<div class="notes">
+
+- Validation uses a separate fit on 54 games from 2016–2024 and tests on six games from 2025. Neither the coefficients nor the baseline mean use holdout outcomes.
+- After validation, the presentation's coefficient table and upcoming-game forecast use a refit on all 60 records. Both sets of results are calculated by Case-Study/build_cougar_tail_case.R.
+- These are retrospective predictions using observed weather and attendance; operational evaluation should use the forecasts available when ingredient and staffing decisions are made.
+- One six-game holdout is not enough to establish operational reliability. Check multiple held-out seasons, prediction-interval coverage, and whether stockouts censor demand before deployment.
+
+</div>
 
 ## Cougar Tails | Brief Concessions Managers
 
@@ -615,7 +674,7 @@ Use game-level forecasts to plan ingredient orders and bakery time, with a buffe
 
 Reserve inventory and production capacity for the target. Update the plan as weather and attendance forecasts change.
 
-We use the upper interval amount to balance the risk of missed sales against waste; it is not a guarantee that we won't sell out.
+We use the upper interval amount to balance the risk of missed sales against waste; it is not a guarantee that we won't sell out (or over-produce).
 
 <div class="notes">
 
@@ -646,27 +705,6 @@ Stage ingredients for **133 batches of 100 tails** and 13,300 sleeves.
 - The 1,200-tail capacity is each baker's total contribution within the 12-hour production window, not a requirement for a continuous 12-hour shift; schedule breaks and coverage within that capacity assumption.
 - The staffing plan reserves two additional people for mint brownies and two for kettle corn, for 16 total. These other-product allocations are planning assumptions, not outputs of the cougar-tail model.
 - Ingredients come from the recipe bill of materials for 133 batches of 100 tails. Check on-hand usable ingredients, packaging, supplier lead times, equipment capacity, storage, and delivery before committing the schedule across campus bakeries.
-
-</div>
-
-## Cougar Tails | Brief the Analytics Team
-
-- **Temperature:** 1°F warmer is associated with about **95 fewer units**, holding the other included predictors constant.
-- **Attendance:** 1,000 more people is associated with about **150 more units**, under the same adjustment.
-
-| 2025 holdout: 6 games | Mean absolute error |
-| :--- | ---: |
-| Regression trained on 2016–2024 | **671 tails per game** |
-| Always predict the training-set mean | **1,585 tails per game** |
-
-The model improves on this simple baseline. Monitor forecast error by game.
-
-<div class="notes">
-
-- Validation uses a separate fit on 54 games from 2016–2024 and tests on six games from 2025. Neither the coefficients nor the baseline mean use holdout outcomes.
-- After validation, the presentation's coefficient table and upcoming-game forecast use a refit on all 60 records. Both sets of results are calculated by Case-Study/build_cougar_tail_case.R.
-- These are retrospective predictions using observed weather and attendance; operational evaluation should use the forecasts available when ingredient and staffing decisions are made.
-- One six-game holdout is not enough to establish operational reliability. Check multiple held-out seasons, prediction-interval coverage, and whether stockouts censor demand before deployment.
 
 </div>
 
